@@ -5,15 +5,15 @@ st.set_page_config(page_title="Home",
                    page_icon='./images/home.png')
 
 st.title("YOLO V8 Detection by Wasim Malik")
-st.caption('This web application demostrate General Object Detection and deployed using Ngrok')
+st.caption('This web application demostrate General Object Detection/pose_detection/signlanguage detection and deployed using Ngrok')
 
 # Content
 st.markdown("""
 ### This App detects objects from Images
-- Automatically detects 20 objects from image
+- Automatically detects 80 objects from image, also it can detect the pose also it can detect the sign language
 - [Click here for App](/YOLO_for_image/)  
 
-Below given objects will be detected by YoloY8 model
+Some of the Below given objects will be detected by YoloY8 model
 1. Person
 2. Car
 3. Chair
